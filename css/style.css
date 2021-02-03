@@ -14,6 +14,9 @@ body {
   line-height: 2;
 }
 /*Golbales*/
+.img {
+  max-width: 100%;
+}
 .contenedor {
   max-width: 120rem;
   margin: 0 auto;
@@ -48,6 +51,13 @@ img {
 }
 .d-block {
   display: block !important;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.contenido-centrado {
+  max-width: 80rem;
 }
 /*Botones*/
 .boton {
@@ -145,12 +155,14 @@ img {
 .contenedor-anuncios {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .anuncio {
-  flex-basis: calc(33.3% - 1rem);
+  flex: 0 0 calc(33.3% - 1rem);
   border: 1px solid #b5b5b5;
   background-color: #f5f5f5;
   transition: 0.4s;
+  margin-bottom: 2rem;
 }
 .contenido-anuncio {
   padding: 2rem;
@@ -165,8 +177,14 @@ img {
 }
 .iconos-caracteristicas {
   list-style: none;
+  padding: 0;
   display: flex;
   justify-content: space-evenly;
+  max-width: 500px;
+  flex: 1;
+}
+.iconos-caracteristicas ul {
+  padding-left: 0;
 }
 .iconos-caracteristicas li {
   display: flex;
@@ -337,13 +355,19 @@ img {
 }
 /*Nosotros*/
 
-/*Anuncios*/
-.anuncios-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-bottom: 5rem;
+/*Anuncio*/
+.flex p em {
+  color: tomato;
+  font-size: 2rem;
 }
-/*Anuncios*/
+.contenedor .flex {
+  margin: 4rem 0;
+}
+/*Anuncio*/
 
+/*Contacto*/
+label {
+  display: block;
+}
+/*Contacto*/
 /* ------ INTERNAS ------ */
