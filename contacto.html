@@ -17,7 +17,7 @@
     <header class="site-header">
       <div class="contenedor contenido-header">
         <div class="barra">
-          <a href="/">
+          <a href="index.html">
             <img src="img/logo.svg" alt="Logo" />
           </a>
 
@@ -73,11 +73,13 @@
 
             <p>Cómo desea ser contactado:</p>
 
-            <label for="telefono">Teléfono</label>
-            <input type="radio" name="contacto" value="telefono" id="telefono">
+            <div class="forma-contacto">
+              <label for="tel">Teléfono</label>
+              <input type="radio" name="contacto" value="telefono" id="tel">
 
-            <label for="correo">Correo</label>
-            <input type="radio" name="contacto" value="correo" id="correo">
+              <label for="correo">Correo</label>
+              <input type="radio" name="contacto" value="correo" id="correo">
+            </div>
 
             <p>Si elijió teléfono, elija la fecha y hora:</p>
 
@@ -87,7 +89,7 @@
             <label for="horario">Hora:</label>
             <input type="time" id="horario" min="08:00" max="17:00">
 
-            <input type="submit">
+            <input type="submit" class="boton btn-verde">
           </fieldset>
 
         </form>
@@ -99,8 +101,8 @@
         <nav class="navegacion">
           <a href="nosotros.html">Nosotros</a>
           <a href="anuncios.html">Anuncios</a>
-          <a href="#">Blog</a>
-          <a href="#">Contacto</a>
+          <a href="blog.html">Blog</a>
+          <a href="contacto.html">Contacto</a>
         </nav>
         <p class="copyright">Todos los derechos reservados 2021 &copy;</p>
       </div>
