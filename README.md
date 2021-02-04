@@ -5,7 +5,7 @@
 
 Creada a partir del curso: [Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/?start=15)
 
-:broken_heart: No es Responsive web design.
+:broken_heart: No es **mobile friendly**.
 
 ![alt text](https://imgur.com/yDG1hYc.png)
 
